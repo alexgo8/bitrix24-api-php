@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форма обратной связи Битрикс</title>
+</head>
+
+<body>
+  <form action="api/send.php" method="POST">
+    <h3>Форма обратной связи Битрикс</h3>
+    <p>Оставьте заявку, и мы обязательно вам перезвоним</p>
+    <div>
+      <label for="name">Имя</label>
+    </div>
+    <input id="name" type="text" name="name" placeholder="Имя">
+    <div>
+      <label for="phone">Телефон</label>
+    </div>
+    <input id="phone" type="text" name="phone" placeholder="Телефон">
+
+    <div>
+      <label for="comment">Комментарий</label>
+    </div>
+    <textarea name="comment" id="comment" cols="30" rows="10">Здравствуйте. </textarea>
+    <div>
+      <input type="submit" value="Отправить">
+    </div>
+  </form>
+
+</body>
+
+</html>

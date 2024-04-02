@@ -1,0 +1,6 @@
+{
+    "require": {
+        "andrey-tech/bitrix24-api-php": "1.6",
+        "symfony/dotenv": "^7.0"
+    }
+}
